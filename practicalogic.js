@@ -59,8 +59,8 @@ function confiAlarm(){
         alert ("Por favor, ingresa un n´mero válido de segudos.");
         return; //salir de la funcion si el numero no es válido
      }
-     setTimeout(function()){
-        alert (mensaje);
-    }, (segundos * 1000);
+     setTimeout(function() {
+        alert(mensaje);
+    }, segundos * 1000);
 }
 confiAlarm ();
